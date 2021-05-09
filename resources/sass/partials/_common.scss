@@ -1,0 +1,27 @@
+body{
+    font-family: 'Open Sans',
+    sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .wrapper {
+        max-width: $main_container;
+        margin: 0 auto;
+     
+        .logo-brand{
+            text-align: center;
+            
+        }
+    }
+
+
+    .my_flex{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+}
+
+
