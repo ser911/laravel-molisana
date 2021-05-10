@@ -1,4 +1,5 @@
-<footer class="wrapper my_flex">
+<footer>
+    <div class="my_flex wrapper">
         <div class="f-left">
             <img class="logo-brand" src="{{asset('images/marchio-sito-test.png')}}" alt="Molisana Logo">
             <ul>
@@ -47,5 +48,8 @@
                 </ul>
 
             </div>
+
+    
+    </div>
 
     </footer>

@@ -163,3 +163,7 @@ foreach($data as $pasta) {
     
     ]);
 });
+
+Route::get("/news", function(){
+    return view("news")
+});
