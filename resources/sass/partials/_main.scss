@@ -1,3 +1,7 @@
+main{
+    background-image: url(../../../images/fondo-pag-speciali.jpg);
+    background-position: center;
+    padding-top: 20px;
 
 
 
@@ -7,4 +11,13 @@
     img{
         width: 100%;
     }
+
+    
+}
+h3{
+    padding-left: 10px;
+    color: $primary_color;
+    
+}
+
 }

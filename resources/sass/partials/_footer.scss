@@ -1,0 +1,40 @@
+footer{
+    font-size: $xs_font;
+
+    .f-left{
+    padding-top: 40px;
+ 
+    
+    }
+    .f-left, .f-right {
+    flex-basis: 35%;
+    }
+    .f-right{
+        padding-top: 40px;
+        ul{
+            li:nth-child(1){
+            padding: 15px 0;
+            font-size: $s_font;
+            }
+        }
+    }
+    .f-center{
+    flex-basis: 30%;
+    padding-top: 40px;
+    ul{
+        li:nth-child(1), li:nth-child(10){
+         padding: 15px 0;
+            font-size: $s_font;
+        }
+    }
+    }
+img{
+    width: 210px;
+}
+ul{
+    li{
+        list-style: none;
+    }
+}
+
+}

@@ -11,7 +11,8 @@ body .wrapper {
 body .wrapper .logo-brand {
   text-align: center;
 }
-body .my_flex {
+
+.my_flex {
   display: flex;
   flex-wrap: wrap;
 }
@@ -33,12 +34,56 @@ body .my_flex {
   font-weight: 500;
   font-size: 18px;
   color: black;
+  padding: 10px;
+}
+.center .nav li a:active {
+  background-color: #b2e5fc;
 }
 
-.l_product, .md_product, .s_product {
+main {
+  background-image: url(../../../images/fondo-pag-speciali.jpg);
+  background-position: center;
+  padding-top: 20px;
+}
+main .l_product, main .md_product, main .s_product {
   width: calc(( 100% / 3 ) - 20px );
   margin: 10px;
 }
-.l_product img, .md_product img, .s_product img {
+main .l_product img, main .md_product img, main .s_product img {
   width: 100%;
+}
+main h3 {
+  padding-left: 10px;
+  color: #002d73;
+}
+
+footer {
+  font-size: 8px;
+}
+footer .f-left {
+  padding-top: 40px;
+}
+footer .f-left, footer .f-right {
+  flex-basis: 35%;
+}
+footer .f-right {
+  padding-top: 40px;
+}
+footer .f-right ul li:nth-child(1) {
+  padding: 15px 0;
+  font-size: 12px;
+}
+footer .f-center {
+  flex-basis: 30%;
+  padding-top: 40px;
+}
+footer .f-center ul li:nth-child(1), footer .f-center ul li:nth-child(10) {
+  padding: 15px 0;
+  font-size: 12px;
+}
+footer img {
+  width: 210px;
+}
+footer ul li {
+  list-style: none;
 }

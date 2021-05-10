@@ -18,6 +18,10 @@ img{
                 font-weight: 500;
                 font-size: $md_font;
                 color: black;
+                padding: 10px;
+                &:active{
+                    background-color: $secondary_color;
+                }
             }
     
         }
