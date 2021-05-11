@@ -8,30 +8,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-<style> 
-   main {background-image: none} 
-    .wrapper   {
-           text-align: center;        
-        }
-        </style>
+      @yield('css')
 </head>
 <body>
-    @section('css')
-        
-    @endsection
     
  @include('parts.header')
     
  <main>
      <div class="wrapper">
+        @yield('main')
 
-         <h1>Newsletter</h1>    
      </div>
 
     </main>
 
  @include('parts.footer')
 
-    
+  
 </body>
 </html>
