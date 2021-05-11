@@ -2,6 +2,23 @@
 
 @section("main")
 
+    @section('css')
+        
+    @endsection
+    <style>
+main{
+    background-image: none;
+    background-color: #b8dae4;
+    padding-bottom: 20px;
+    color: #002d73;
+}
+.prod{
+    text-align: center;
+}
+
+    </style>
+    
+
 <div class="prod"> 
 
 <h2> {{$pasta['titolo']}}</h2>

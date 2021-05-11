@@ -19,7 +19,7 @@ img{
                 font-size: $md_font;
                 color: black;
                 padding: 10px;
-                &:active{
+                &:hover{
                     background-color: $secondary_color;
                 }
             }
