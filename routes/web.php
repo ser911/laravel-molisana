@@ -142,7 +142,8 @@ $lunga = [];
 $corta = [];
 $cortissima = [];
 
-foreach($data as $pasta) {
+foreach($data as $key => $pasta) {
+    $pasta['id'] = $key;
     if($pasta['tipo'] == 'lunga'){
       $lunga[] = $pasta; 
     }
@@ -299,4 +300,4 @@ return view("product" , [
 "pasta" => $pasta
 ]);
 
-})->where('id', '[0-9]+');
+})->where('id', '[0-9]+')->name('product');

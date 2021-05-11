@@ -9,7 +9,7 @@
                         
                    
                 <div class="l_product">
-                   <img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}">
+               	<a href="{{route('product', [ 'id' => $pasta['id'] ])}}"><img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}"></a>
                 </div>
                  @endforeach
             
@@ -23,7 +23,8 @@
                         
                    
                 <div class="md_product">
-                   <img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}">
+                  	<a href="{{route('product', [ 'id' => $pasta['id'] ])}}"><img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}"></a>
+
                 </div>
                  @endforeach
             
@@ -37,7 +38,8 @@
                         
                    
                 <div class="s_product">
-                   <img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}">
+                  	<a href="{{route('product', [ 'id' => $pasta['id'] ])}}"><img src="{{$pasta['src']}}" alt="{{$pasta['titolo']}}"></a>
+
                 </div>
                  @endforeach
             
